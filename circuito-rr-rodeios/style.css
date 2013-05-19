@@ -1,0 +1,674 @@
+/*
+Theme Name: Circuito RR de Rodeios
+Theme URI: http://www.circuitorrderodeios.com.br
+Description: Este tema foi desenvolvido pel JP Comunica&ccedil;&atilde;o para empresa Torrinha Eventos Cowntry Ltda.
+Version: 1.0
+Author: Jo&atilde;o Paulo de Oliveira
+Author URL: http://www.jpcomunicacao.com.br
+Tags: rodeio, festa, barretos, comitiva de rodeio, organiza&ccedil;&atilde;o de festas
+*/
+
+.alignleft{float:left; margin-right:5px;}
+.alignright{float:right; margin-left:5px;}
+blockquote{margin:10px; border-left:5px solid #005789; padding:0 5px; background:#DFEFFF;}
+body{
+	width: 100%;
+	background-image: url("img/bg.jpg");
+	background-repeat: repeat;
+	margin: 0;
+	font-family: 'Arbutus Slab', serif;
+	font-size: 15px;
+	display: inline;
+	list-style: none;
+}
+a {
+  color: #fff;
+  font-weight:bold;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+#header{
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+	background: -moz-linear-gradient(top, #530000, #9e0b0f) repeat-X; /* Para Mozilla/Gecko (Firefox etc) */
+	background: -webkit-gradient(linear, left top, left bottom, from(#530000), to(#9e0b0f)) repeat-X; /* Para WebKit (Safari, Google Chrome etc) */	 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#530000, endColorstr=#9e0b0f)"; /* Para IE 8 */	 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#530000, endColorstr=#9e0b0f); /* Para IE 5.5 - 7 */
+	background-image:url(img/bg_patro.png) repeat;
+	top: 0;
+	margin-top: 0;
+	border-bottom: 2px solid #bb894e;
+}
+.topo{ 
+	background:url(img/bg_topo.jpg) repeat-x; 
+	width:100%; 
+	overflow:hidden; 
+	text-align:left; 
+	position:relative; 
+	z-index:10; 
+	min-height:204px;
+	
+}
+.topo div.logomarca {
+	left:40px;
+	position:absolute;
+	top:-4px;
+	z-index:13;
+}
+.topo div.container_top {
+	margin:0 auto;
+	padding-left: 0;
+	position:relative;
+	width:1000px;
+	z-index:10;
+}
+.linklogo {
+	display:block;
+	width:200px;
+	height:204px;
+	left:20px;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	z-index:999;
+}
+.menu {
+	background:url("img/bg_menu.png") no-repeat scroll left top transparent;
+	height:54px;
+	margin: 0 auto;
+	width:1000px;
+}
+.menu ul{
+	width: 680px;
+	height: 30px;
+	margin-right: 35px;
+	float: right;
+	padding: 0;
+}
+.menu li{
+	font-family: 'Arbutus Slab', serif;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline;
+	list-style: none;
+	margin-left: 0;
+	margin-right: 10px;
+}
+.menu li a{
+	color: #CC9900;
+	text-decoration: none;
+}
+.menu li a:hover{
+	color: #fff;
+	text-decoration: underline;
+	/*text-shadow: 0 0 0.3em #fff, 0 0 0.3em #fff, 0 0 0.3em #fff;*/
+}
+#destaque_top{
+	width: 630px;
+	height: 130px;
+	float: right;
+	display: inline;
+	margin-right: 90px;
+	margin-top: 2px;
+}
+#destaque_top img{
+	width: 630px;
+	height: 130px;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /*Para Safari e Chrome */
+	border-radius: 10px; /* Para Opera 10.5+*/
+}
+#content{
+	width: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#titulo_destaque{
+	font-size: 30px;
+	width: 670px;
+	height: 30px;
+	float: left;
+	display: inline;
+	margin: 0 0 10px 0;
+	color: #fff;
+}
+#titulo_video{
+	font-size: 30px;
+	width: 320px;
+	height: 30px;
+	float: right;
+	display: inline;
+	margin: 0 0 10px 0;
+	color: #fff;
+}
+#titulo_destaque img{
+	margin: 0 0 3px 0;
+}
+#box_capeoes{
+	width: 670px;
+	height: 260px;
+	float: left;
+	display: inline;
+	background: #ff0;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /*Para Safari e Chrome */
+	border-radius: 10px; /* Para Opera 10.5+*/
+	background: -moz-linear-gradient(top, #edb112, #ff0) repeat-X; /* Para Mozilla/Gecko (Firefox etc) */
+	background: -webkit-gradient(linear, left top, left bottom, from(#edb112), to(#ff0)) repeat-X; /* Para WebKit (Safari, Google Chrome etc) */	 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#edb112, endColorstr=#ff0)"; /* Para IE 8 */	 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#edb112, endColorstr=#ff0); /* Para IE 5.5 - 7 */
+}
+#foto_campeao img{
+	width: 230px;
+	height:260px;
+	float: left;
+	display: inline;
+
+}
+#titulo_capeao{
+	width: 425px;
+	overflow: hidden;
+	font-size: 25px;
+	font-weight: bold;
+	float: right;
+	margin-top: 15px;
+}
+#ranking_final{
+	width: 425px;
+	overflow: hidden;
+	font-size: 20px;
+	font-weight: bold;
+	float: right;
+}
+#ranking_completo{
+	width: 425px;
+	height: 30px;
+	font-size: 18px;
+	float: right;
+	text-align: right;
+	margin-top: 10px;
+	padding: 0 10px 0 0;
+}
+#ranking_completo a{
+	color: #444;
+	text-decoration: none;
+}
+#ranking_completo a:hover{
+	color: #444;
+	text-decoration: underline;
+}
+#box_video{
+	width: 320px;
+	height: 260px;
+	float: right;
+	display: inline;
+	background: #ff0;
+}
+
+#titulo_galerias{
+	font-size: 30px;
+	width: 600px;
+	height: 30px;
+	float: left;
+	display: inline;
+	margin: 10px 0 0 0;
+	color: #fff;
+}
+#titulo_galerias img{
+	margin: 0 0 3px 0;
+}
+#galerias_home{
+	width: 600px;
+	height: 300px;
+	float: left;
+	display: inline;
+	margin-top: 10px;
+}
+#titulo_noticias{
+	font-size: 30px;
+	width: 390px;
+	height: 30px;
+	float: right;
+	display: inline;
+	margin: 10px 0 0 0;
+	color: #fff;
+}
+#titulo_noticias img{
+	margin: 0 0 3px 0;
+}
+#noticias_home{
+	width: 390px;
+	height: 300px;
+	float: right;
+	display: inline;
+	margin-top: 10px;
+}
+#caixa_not_home{
+	width: 380px;
+	height: 90px;
+	float: left;
+	margin: 5px;
+}
+#caixa_not_home .foto_not img{
+	width: 80px;
+	height: 80px;
+}
+#caixa_not_home .foto_not a{
+	width: 80px;
+	height: 80px;
+	padding: 5px;
+	background: #fff;
+	display: inline;
+	float: left;
+}
+#caixa_not_home .foto_not a:hover{
+	background: #CC9900;
+}
+#caixa_not_home .title_not{
+	width: 280px;
+	height: 25px;
+	font-size: 18px;
+	color: #fff;
+	float: right;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+#caixa_not_home .title_not a{
+	color: #fff;
+	text-decoration: none;
+}
+#caixa_not_home .title_not a:hover{
+	color: #CC9900;
+	text-decoration: underline;
+}
+#caixa_not_home .data_not{
+	width: 280px;
+	font-size: 11px;
+	color: #fff;
+	font-style: italic;
+	overflow: hidden;
+	float: right;
+	display: inline;
+}
+#caixa_not_home .descr_not{
+	width: 280px;
+	font-size: 13px;
+	color: #fff;
+	overflow: hidden;
+	float: right;
+	display: inline;
+	margin-top: 5px;
+}
+#footer{
+	background-image: url(img/bg_footer.jpg);
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 160px;
+	margin-top: 10px;
+	border-top: 2px solid #bb894e;
+}
+#footer_inter{
+	width: 1000px;
+	height: 160px;
+	margin: 0 auto;
+}
+#parceiros{
+	width: 700px;
+	height: 60px;
+	float: left;
+	display: inline;
+	margin-top: 10px;
+}
+#parceiros img{
+	float: left;
+	display: inline;
+	margin-right: 10px;
+}
+#redes{
+	width: 240px;
+	height: 32px;
+	float: right;
+	display: inline;
+	margin-top: 25px;
+}
+#redes .siga{
+	font-size: 23px;
+	color: #fff;
+	margin-top: 50px;
+}
+#redes img{
+	width: 32px;
+	height: 32px;
+	float: right;
+	display: inline;
+	margin: 0 6px;
+}
+#direitos{
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	width: 650px;
+	height: 70px;
+	float: left;
+	display: inline;
+	margin-top: 15px;
+	color: #fff;
+}
+#jpo{
+	width: 340px;
+	height: 70px;
+	float: right;
+	text-align: right;
+	font-size: 12px;
+	color: #fff;
+	line-height: 25px;
+	display: inline;
+	margin-top: 10px;
+}
+/*ACORDION GALERIA*/
+.accordion{
+	position:relative;
+	overflow:hidden;
+	width: 600px;
+}
+.accordion .panel{
+	background-image:url(loading.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	position:absolute;
+	background-color:#fff;
+	border:4px solid #fff;
+	background-repeat:no-repeat;
+}
+.accordion .shadow-horizontal{
+	position:absolute;
+	right:0px;
+	width:25px;
+	height:100%;
+}
+.accordion .shadow-vertical{
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	height:25px;
+}
+.accordion .preloader{
+	width:62px;
+	height:14px;
+	position:absolute;
+	z-index:15;
+}
+.accordion .caption{
+	overflow:hidden;
+	position:absolute;
+	z-index:20;
+	margin-bottom: 0;
+	margin-top: 80px;
+	margin-left: -10px;
+}
+.accordion .caption-background{
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+.accordion .caption p{
+	color:#FFF;
+	margin:0px;
+	padding:10px;
+}
+.accordion .caption p a{
+	color:#FFF;
+}
+.accordion{
+	width:600px;
+	margin:0px auto;
+	list-style:none;
+	padding:0px;
+}
+.accordion img, .accordion .caption{
+	position:absolute;
+	left:-9999px;
+}
+
+/*PAGE*/
+#pageFull{
+	width: 690px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+	margin: 0;
+	background-image: url(img/bg_page.png);
+	background-repeat: repeat;
+	padding: 5px;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /*Para Safari e Chrome */
+	border-radius: 10px; /* Para Opera 10.5+*/
+}
+#pageFull h1{
+	width: 690px;
+	height:30px;
+	font-size: 26px;
+	color: #fff;
+	display: block;
+	float: left;
+	margin: 0;
+}
+#pageFull p{
+	width: 690px;
+	overflow: hidden;
+	font-size: 15px;
+	color: #fff;
+	float: left;
+	margin: 10px 0;
+	line-height: 25px;
+}
+#pageFull h2{font-size: 20px; font-weight:bold; color:#ff0; margin:5px 0;}
+#pageFull h3{font-size: 16px; font-weight:bold; color:#999; margin:5px 0;}
+#pageFull h4{font-size: 14px; font-weight:bold; color:#fff ;margin:5px 0;}
+#pageFull ul{list-style:square; margin:0 0 0 10px; float: left;}
+#pageFull ol{margin:0 0 0 30px ;}
+#pageFull ul li{margin:3px 0; list-style: square; color: #fff; float: left; width: 600px;}
+
+#pageFull .titulo_noticias a{
+	width: 680px;
+	float: left;
+	color: #ccc;
+	font-size: 18px;
+	padding:3px 0;
+	text-decoration: none;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#pageFull .titulo_noticias a:hover{
+	color: #ccc;
+	text-decoration: underline;
+}
+#pageFull .noticias_chamada a{
+	width: 680px;
+	float: left;
+	color: #ccc;
+	font-size: 15px;
+	padding:3px 0;
+	text-decoration: none;
+}
+#pageFull .noticias_chamada a:hover{
+	color: #ccc;
+	text-decoration: underline;
+}
+#pageFull .caixa_agenda{
+	width: 690px;
+	height: 110px;
+	display: block;
+	float: left;
+	margin: 10px 0;
+}
+#pageFull .foto_agenda img{
+	width: 220px;
+	height: 80px;
+}
+#pageFull .foto_agenda a{
+	width: 220px;
+	height: 80px;
+	float: left;
+	display: inline;
+	background: #fff;
+	padding: 5px;
+}
+#pageFull .foto_agenda a:hover{
+	background: #CC9900;
+}
+#pageFull .chamada_agenda{
+	width: 430px;
+	height: 80px;
+	float: right;
+	display: inline;
+	color: #fff;
+	margin: 0 15px 0 0;
+}
+#pageFull form{width:500px; display:block; float: left; padding: 0; margin-top: 20px;}
+#pageFull form p{display:block; font-size: 15px; font-weight:bold; color:#fff; margin: 0;}
+#pageFull input{width:488px; padding:5px; border:1px solid #333; font-size: 15px; color:#999;}
+#pageFull textarea{width:488px; padding:5px; border:1px solid #333; font-size: 15px; color:#999;}
+#pageFull .btn{width:500px; display:block; cursor:pointer; background:#fff; color:#666; font-family: 'Noto Serif', serif;}
+#pageFull .btn:hover{border:1px solid #333; color:#333;}
+#pageFull table{ margin-top: 20px; color: #fff; padding: 5px;}
+
+#pageFull .titulo_video a{
+	width: 680px;
+	float: left;
+	color: #fff;
+	font-size: 20px;
+	padding:3px 0;
+	text-decoration: none;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#pageFull .titulo_video a:hover{
+	color: #edb112;
+	text-decoration: underline;
+}
+/*PAGINA DE GALERIA*/
+#caixa_galeria{
+	width: 160px;
+	height: 200px;
+	float: left;
+	display: inline;
+	padding: 5px;
+	margin: 5px 0;
+}
+#caixa_galeria .foto_destaque_gal img{
+	width: 150px;
+	height: 113px;
+}
+#caixa_galeria .foto_destaque_gal a{
+	width: 150px;
+	height: 113px;
+	padding: 5px;
+	background: #fff;
+	display: inline;
+	float: left;
+}
+#caixa_galeria .foto_destaque_gal a:hover{
+	background: #CC9900;
+}
+
+#caixa_galeria .data_galeria{
+	width: 160px;
+	font-size: 12px;
+	font-style: italic;
+	float: left;
+	color: #fff;
+	margin-top: 5px;
+	border-bottom: 5px;
+}
+#caixa_galeria .evento_galeria a{
+	width: 160px;
+	overflow: hidden;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+#caixa_galeria .evento_galeria a:hover{
+	color: #CC9900;
+	text-decoration: underline;
+}
+#caixa_galeria .cidade_galeria{
+	width: 160px;
+	overflow: hidden;
+	float: left;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 5px;
+}
+#siderbar{
+	width: 290px;
+	overflow: hidden;
+	float: right;
+	display: inline;
+	background: #380303;
+	padding-bottom: 20px;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /*Para Safari e Chrome */
+	border-radius: 10px; /* Para Opera 10.5+*/
+}
+#busca{
+	width: 290px;
+	height: 80px;
+	float: right;
+	display: block;
+}
+#title_busca{
+	width: 280px;
+	overflow: hidden;
+	font-size: 18px;
+	color: #fff;
+	padding: 0 0 5px 13px;
+}
+.inp_busca{
+	width: 220px;
+	height: 24px;
+	background: #ccc;
+	border: 2px solid #666;
+	color: #333;
+	font-size: 15px;
+	float: left;
+	display: inline;
+	padding: 2px;
+	margin-left: 11px;
+}
+.btn_busca{
+	width: 30px;
+	height: 30px;
+	float: right;
+	display: inline;
+	background-color: #333;
+	background-image: url(img/lupa.png);
+	background-repeat: no-repeat;
+	border: #333;
+	cursor: pointer;
+	margin-right: 11px;
+}
+#title_facebook{
+	width: 280px;
+	overflow: hidden;
+	font-size: 18px;
+	color: #fff;
+	padding: 0 0 5px 13px;
+	display: block;
+}
+#facebook{
+	width: 290px;
+	overflow: hidden;
+	display: block;
+	margin-bottom: 15px;
+	background: #ccc;
+	color: #fff;
+}
+	

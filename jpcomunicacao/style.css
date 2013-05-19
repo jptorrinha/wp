@@ -1,0 +1,52 @@
+/*
+Theme Name: Zig Zag Responsive 
+Theme URI: http://zigzagwp.brankic.net
+Description: <strong>Responsive Wordpress theme by Brankic</strong><br> - Update notifications available on <a href='http://twitter.com/brankic1979'>our Twitter</a> and on <a href='http://www.facebook.com/brankic1979themes'>Facebook page</a>  
+Version: 1.2.3
+Author: Branka Tadic
+Author URI: http://www.brankic1979.com/
+License: GNU General Public License
+License URI: license.txt
+Tags: responsive, one pager, one page template
+
+	This theme was designed and built by Branka Tadic,
+	whose website you will find at http://www.brankic1979.com/
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+	
+	All css files are in folder CSS
+	
+	Change log:
+	1.2.2 Added portfolio_section_no_hover.inc.php file
+		  Portfolio separate page fix (page.php)
+		  Portfolio items hover fix (when clicking on next/prev link) (portfolio-inline.js)
+		  Portfolio items filter hover bug (css/style.css)
+	1.2.1 Portfolio single slider - number of slides increased to 20. (single-portfolio-item.php, bra_admin_functions.php, portfolio-section.inc.php) 
+	1.2   GA code fix (header.php, bra_admin.php)
+		  Padding set to 0 for 1st section (custom.js)
+		  jQuery fix (override wordpress jQuery version) (functions.php)
+		  Scroll fix (custom.js, header.php)
+		  Home slider pagination fix (slider-simple.css)
+		  Optional height of the slider (bra_admin_2.php, header.php)
+		  Shortcode Icons paths fixed (bra_shortcodes.php, shortcodes_team_member.php, shortcodes_icon_boxes.php, custom.js)
+
+	1.1   If only one slide is used - it's working (slider-simple.js, slider-simple-home.js, slider-simple-home-1.js)
+		  New plugin for social media icons included (bra_social_media.zip)
+		  Top scrolling of first menu item fixed. 
+		  More than one Sliding Graph shortcode per page (custom.js, bra_shortcodes.php, CSS folder)	
+		  Separate pages - portfolio, blog, default page (header.php, page.php, home.php)
+	1.0.3 Fixed changing google web fonts (css/style.css)
+		  Added link for icon for shortcode Icon boxes (shortcodes_options.js, bra_shortcodes.php, shortcodes_icon_boxes.php, smooth-scroll.js)
+		  Added arrows to portfolio slider (css/portfolio-item.css, javascript/slider-simple.js)
+	1.0.2 Fixed scrolling to portfolio item in Chrome/Safari (portfolio-inline.js)
+		  Fixed portfolio item (pagination layout) previous-and-next-post-in-same-taxonomy.php 	
+		  Fixed "Choose your style panel" - now working in Chrome/Safari too (theme-option.js)
+		  Force Reading Settings -> Latest posts option (because of one pager layout)
+	1.0.1 CSS fixes for dark layout (added patterns for dark layout) and boxed style (slight change of bg color). (header.php and CSS folder)
+	1.0 Initial release
+*/
+
+
+
+

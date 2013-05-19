@@ -1,0 +1,38 @@
+<table width="960" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#000000">
+
+  <tr>
+
+    <td height="0" colspan="3">&nbsp;</td>
+  </tr>
+
+  <tr>
+
+    <td height="40" bgcolor="#333333"><div align="center"><span class="titulo_pat">&nbsp;APOIO</span></div></td>
+
+    <td height="40" bgcolor="#333333"><div align="center"><span class="titulo_pat">&nbsp;REALIZA&Ccedil;&Atilde;O</span></div></td>
+
+    <td height="40" bgcolor="#333333"><div align="center"><span class="titulo_pat">&nbsp;M&Iacute;DIAS QUE APOIAM O EVENTO</span></div></td>
+  </tr>
+
+  <tr>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td width="305"><a href="http://www.torrinha.sp.gov.br" target="_blank">
+    <img src="<?php bloginfo('template_directory'); ?>/patrocinadores/torrinha_01_brasao.jpg" width="305" height="180" border="0" /></a></td>
+    <td width="256"><img src="<?php bloginfo('template_directory'); ?>/patrocinadores/ciarr.jpg" width="256" height="180" /></td>
+    <td width="359"><img src="<?php bloginfo('template_directory'); ?>/patrocinadores/radio.jpg" width="358" height="180" /></td>
+    </tr>
+  <tr>
+    <td colspan="5">&nbsp;</td>
+  </tr>
+</table>
+
+
+

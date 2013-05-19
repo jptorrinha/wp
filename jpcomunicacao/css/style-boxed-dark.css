@@ -1,0 +1,11 @@
+body {
+    background-color:#202020;
+}
+#wrapper {
+	padding: 0 25px;
+	overflow: hidden;
+	background-color: #252525;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+	border-left: 1px solid #313131;
+	border-right: 1px solid #313131;
+}

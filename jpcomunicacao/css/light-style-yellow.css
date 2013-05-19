@@ -1,0 +1,163 @@
+
+body {
+	border-top: 7px solid #FEEB43;
+}
+input.submit, input.submit:focus, input.submit:active, #search input.submit {
+	background: #FEEB43;
+	color: #707070;
+}
+input.submit:hover {
+    color: #fff;
+}
+a { 
+	color: #E9D101;
+}
+.title a:hover {
+	color: #E9D101;
+}
+#menu ul li a:hover, #menu ul li a.current, .menu ul li a:hover, .menu ul li a.current {
+	color: #FEEB43;
+}
+#menu.pinned {
+	border-top: 7px solid #FEEB43;
+}
+#menu.pinned ul {
+	background-color: #FEEB43;
+}
+#menu.pinned ul li a {
+	color: #707070;
+}
+#menu.pinned ul li a:hover, #menu.pinned ul li a.current {
+	color: #000;
+}
+.social-bookmarks ul {
+	background-color: #FEEB43;
+	color: #707070;
+}
+.section-title.home {
+	background: #FEEB43;
+	color: #707070;
+}
+#footer {
+	color: #707070;
+}
+#footer a {
+	color: #707070;
+	border-bottom: 1px dotted #707070;
+}
+#footer a:hover {
+	color: #000;
+}
+.footer-content, #footer-bottom  {
+	background-color: #FEEB43;
+}
+#footer-bottom {
+	color: #707070;
+	background-color: #FEEB43;
+}
+.icon-box li:hover{
+	background: #FEEB43;
+    color: #707070;
+}
+.services-graph li span {
+	background: url(../images/stripes-white.png) repeat  #FEEB43;
+}
+.services-graph li {
+	color: #707070;
+}
+.services-graph li strong {
+	color: #000;
+}
+.highlight1 {
+	background-color: #FEEB43;
+	color: #707070;
+}
+.portfolio-grid .item-info-overlay {
+	background-color: #FEEB43;
+	color: #707070;
+}
+.portfolio-grid .item-info-overlay p {
+	border-top: 1px dotted #707070;
+}
+.filterable li.current a, .filterable li a:hover {
+	background-color: #FEEB43; 
+	color: #707070; 
+}
+.page_navigation a.active_page, .page_navigation a:hover {
+	background-color: #FEEB43;
+	color: #707070;   
+}	
+.contact-success {
+	background-color: #FEEB43;
+	color: #707070;
+}
+.post-meta .title a:hover {
+	color: #E9D101;
+}
+.comment-date-wrap .text {
+	background-color: #FEEB43;
+	color: #707070;
+}
+.comment-date-wrap .link:hover  {
+	background: #FEEB43;
+	color: #707070;
+}
+.comment-date-wrap .link a:hover  {
+	color: #707070;
+}
+#comment-list ul.children li .comment-wrap {
+	background-color: #FEEB43;
+	color: #707070;
+}
+.archive-list ul li a:hover {	
+	background-color: #FEEB43; 
+	color: #707070; 
+}
+.tags a {	
+	background-color: #FEEB43; 
+	color: #707070;  
+}
+.archive-post-list li a:hover {
+	color: #FEEB43;
+}
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	background-color:  #FEEB43;
+	color: #707070;
+}
+#slider .slide {	
+	background: none repeat scroll 0 0 transparent !important;
+}
+#slider .pagination {
+	background:#000;
+	background:rgba(0,0,0,.5);
+}
+#slider .pagination li a {
+	background: url(../images/bullet-slider-arrow.png) no-repeat 0 0 transparent;
+}
+#slider .pagination li a:hover, #slider .pagination li.current a {
+	background: url(../images/bullet-slider-arrow.png) no-repeat 0 -11px transparent;
+}
+#slider .caption {
+	background:#3ea9a1;
+	background:rgba(254,235,67,0.7);
+	color:#FFF;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
+#portfolio-item-wrapper {
+	border-bottom: 1px solid #888888;
+}
+.slides_container {
+	background-image: url(../images/loading.gif);
+}
+.pagination li a {
+	background-color: #CCCCCC;
+}
+.pagination li a:hover, .pagination li.current a {
+	background-color: #555;
+}
+ul.item-nav li a {
+	background: url(../images/sprite.png) no-repeat scroll 0 0 #f4f4f4;
+}
+.header_widget{
+	background-color:#FEEB43;
+}
